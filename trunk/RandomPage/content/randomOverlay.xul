@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://RandomPage/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://RandomPage/locale/randomOverlay.dtd">
+<overlay id="RandomPage-overlay"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="randomOverlay.js"/>
+  
+  <keyset>
+   	<key id="random-key" modifiers="accel" key="&randomPageKey;" oncommand="RandomPage.onMenuItemCommand(event);"/>
+  </keyset>
+
+  <menupopup id="menu_viewPopup">
+    <menuitem id="RandomPage-viewMenu" label="&randomPageLabel;" key="random-key"
+        oncommand="RandomPage.onMenuItemCommand(event);"/>
+  </menupopup>
+</overlay> 
