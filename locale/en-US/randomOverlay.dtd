@@ -1,0 +1,4 @@
+<!ENTITY randomPageLabel "Random Page">
+<!ENTITY randomPageKey "/">
+<!ENTITY randomButton.label "Random Page">
+<!ENTITY randomButton.tooltip "Go to an arbitrary page in the Internet.">
